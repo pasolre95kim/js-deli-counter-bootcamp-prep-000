@@ -1,8 +1,8 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name)
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
+function takeANumber(katzDeliLine, number){
+  katzDeliLine.push(number)
+  return `Welcome, You are number ${katzDeliLine.length} in line.`
 }
 /// pushing (name) to the end of an array = katzDeliLine's empty array
 ///${} means it's not string, it's javascript
