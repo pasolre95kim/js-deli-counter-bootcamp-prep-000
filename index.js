@@ -1,5 +1,5 @@
 var katzDeliLine = [];
-var number = 0 
+var number = 0
 
 function takeANumber(katzDeliLine, number){
   number++
@@ -17,7 +17,7 @@ function nowServing(katzDeliLine) {
   var name = katzDeliLine.shift() ///no need to provide name
   /// katzDeliLine.shift equals the first name in line and return the first name
   /// var name --> fist name that was removedfrom katzDeliLine
-  return `Currently serving ${name}.`
+  return `Currently serving ${number}.`
 }
 
 function currentLine(katzDeliLine) {
