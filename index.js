@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
-/// pushing (name) to the end of an array = katzDeliLine up top
+/// pushing (name) to the end of an array = katzDeliLine's empty array
 ///${} means it's not string, it's javascript
 
 function nowServing(katzDeliLine) {
@@ -32,3 +32,5 @@ return message + newMessage.join(", ")
 
 /// .join turn arrays into strings (with commas in between quotes)
 ///unshift - put element in the beginning of array
+/// slice() - can remove element without changing array
+/// .pop() - removes element from end of array
