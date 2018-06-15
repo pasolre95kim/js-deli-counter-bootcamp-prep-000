@@ -14,7 +14,7 @@ function nowServing(katzDeliLine) {
     return `There is nobody waiting to be served!`
   }
  else(katzDeliLine.length > 0)
-  var name = katzDeliLine.shift() ///no need to provide name
+  var number = katzDeliLine.shift() ///no need to provide name
   /// katzDeliLine.shift equals the first name in line and return the first name
   /// var name --> fist name that was removedfrom katzDeliLine
   return `Currently serving ${number}.`
